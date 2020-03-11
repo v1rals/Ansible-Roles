@@ -1,0 +1,5 @@
+<VirtualHost {{ansible_hostname}} >
+    DocumentRoot "/www/html"
+    ServerName {{ansible_hostname}}.example.com
+    ServerAlias {{ansible_hostname}}
+</VirtualHost>
